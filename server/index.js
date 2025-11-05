@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors(
     {
-        origin: ["http://localhost:5173", "http://localhost:4000", "https://13.201.226.21:4000", "https://deploy.codebhaiya.com:4000"],
+        origin: ["http://localhost:5173", "http://localhost:4000", "https://13.201.226.21:4000", "https://deploy.codebhaiya.com"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
         allowedHeaders: ["Content-Type", "Authorization"]
